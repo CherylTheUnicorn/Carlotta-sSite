@@ -1,0 +1,108 @@
+h1 {
+  border-left: none;
+  border-bottom: 1.5pt solid white;
+  border-right: none;
+  border-top: none;
+  }
+    h2 {color:#C140FF;
+      font-family:monospace;
+      font-size:3em;
+      margin-left:1.1em;
+  }
+
+
+    h3 {color:#FFFF00;;
+    font-family:monospace;
+    font-size: 3em;
+    margin-left:1.1em;}
+    h5 {color:#FF42F9;
+        font-size: 1.5em;
+        font-family:sans-serif;
+        margin-left:2em;}
+
+
+a {color:white;
+text-decoration: none;}
+a:hover {
+  color: grey;
+text-decoration: underline;
+}
+
+body {  background-color:black;
+  height: 100%;
+  color:white;
+  font-family:sans-serif;}
+  p {font-color:white;
+  font-family:sans-serif;
+  margin-left:2em;
+  font-size:18pt;}
+
+#navbar {background-color: black;
+opacity:0.7;
+width:100%;
+height:60px;
+position:absolute;
+top: 0px;
+left: 0px;
+position: fixed;
+border-bottom: 0.5pt solid white;
+}
+ #elements {
+font-size:16pt;
+text-decoration: none;
+ float: left;
+margin-left:25px;
+z-index: 100;
+color:#C140FF;
+margin-top: 0px;}
+#elements:hover {font-size:20pt;
+  border-bottom: 2pt solid #FFFF00;
+color: #FFFF00;}
+
+embed {
+position: absolute;
+colour: purple;
+right: 0%;
+bottom:10%;
+z-index: 1;}
+
+ul {list-style-type:none;
+    margin-left:0.2em;
+  font-family: monospace;
+font-color:white;}
+footer {border-top: 1.5pt solid white;}
+* {box-sizing:border-box}
+
+.container {
+    width: 100%;
+    background-color:#2D2D2D;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.html {width: 90%; background-color: #097700;}
+.css {width: 65%; background-color: #C6BC00;}
+.js {width: 40%; background-color: #A80202;}
+.ps {width: 60%; background-color: #07B1E5;}
+.idml {width: 90%; background-color: #E000B6;}
+.ai {width: 75%; background-color: #DD5900;}
+#bottonetop {margin-left:2em;
+  color:white;
+font-size:1.2em;
+font-family: sans-serif;
+cursor: pointer;
+border-right: 1.1pt solid #8F8F8F;
+border-bottom: 1.5pt solid #8F8F8F;
+width:17.6vh;
+}
+#bottonetop:hover {color:#8F8F8F;
+border-left: 1pt solid white;
+border-bottom: none;
+border-right: none;
+border-top: 1.5pt solid white;
+}
