@@ -3,13 +3,14 @@ body, html {
     height: 100%;
 }
 
+
 h1 {border-left: none;
 border-bottom: 1.5pt solid white;
 border-right: none;
 border-top: none;}
     h2 {
       color:grey;
-      margin-left:1.5em;
+      margin-left:1.25em;
       font-family:monospace;
       font-size:3em;
     animation-duration: 0.4s;
@@ -45,13 +46,13 @@ text-decoration: underline;
 }
 p { color:black;
   font-family:monospace;
-  margin-left:2em;;
- font-size: 20pt;}
+  margin-left:2em;
+ font-size: 1.6em;}
 
 
  strong {
    font-family:monospace;
-  font-size: 20pt;
+  font-size: 1.5em;
   color:white;}
 
 body {  background-image: url("statuapizzo2.jpg");
