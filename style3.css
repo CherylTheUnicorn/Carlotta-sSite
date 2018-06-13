@@ -30,7 +30,8 @@
 
 
 
-.mySlides {display: none;}
+.mySlides {z-index:0;
+  display: none;}
 
 .prev, .next {
   cursor: pointer;
