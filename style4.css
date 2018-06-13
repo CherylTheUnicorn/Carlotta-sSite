@@ -1,3 +1,24 @@
+
+.iconbar {position:absolute;
+  top:8%;
+  right:0%;
+    width: 5%;
+    background-color:black;
+    position: fixed;
+      opacity:0.8;
+    z-index: 0;
+}
+
+.iconbar a {z-index: 1;
+    display: block;
+    padding: 10px;
+
+  }
+
+.iconbar a:hover {
+    background-color: black;
+    opacity:0.6;
+}
 h1 {
   border-left: none;
   border-bottom: 1.5pt solid white;
@@ -86,7 +107,7 @@ footer {border-top: 1.5pt solid white;}
 }
 
 .html {width: 90%; background-color: #097700;}
-.css {width: 65%; background-color: #C6BC00;}
+.css {width: 70%; background-color: #C6BC00;}
 .js {width: 40%; background-color: #A80202;}
 .ps {width: 60%; background-color: #07B1E5;}
 .idml {width: 90%; background-color: #E000B6;}

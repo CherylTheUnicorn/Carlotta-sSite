@@ -1,13 +1,78 @@
 
 body, html {
-    height: 100%;
+    max-height: 100%;
 }
 
 
+.iconbar {position:absolute;
+  top:8%;
+  right:0%;
+    width: 5%;
+    background-color:black;
+    position: fixed;
+      opacity:0.8;
+    z-index: 0;
+}
+
+.iconbar a {z-index: 1;
+    display: block;
+    padding: 10px;
+
+  }
+
+.iconbar a:hover {
+    background-color: black;
+    opacity:0.6;
+}
 h1 {border-left: none;
-border-bottom: 1.5pt solid white;
+border-bottom: 4.8pt solid white;
 border-right: none;
 border-top: none;}
+
+@-webkit-keyframes spin {
+  from {-webkit-transform: translate(-50%, -50%)
+rotate(0deg) scale(1.5);}
+  to {-webkit-transform: translate(-50%, -50%)  rotate(0deg) scale(0.5);}
+}
+@keyframes spin {
+  from {-webkit-transform: translate(-50%, -50%)
+rotate(0deg) scale(1.5);}
+  to {-webkit-transform: translate(-50%, -50%)  rotate(0deg) scale(0.5);}
+}
+#spinner1 {z-index: 1;
+height: 10vh;
+width: 10vh;
+border-radius:50%;
+background-color:black;
+opacity:0.7;
+transition-timing-function: ease;
+-webkit-animation: spin 0.6s infinite alternate;
+animation: spin 0.6s infinite alternate;
+}
+.center {position: absolute;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+}
+#poesia {display: none;}
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
     h2 {
       color:grey;
       margin-left:1.25em;
@@ -55,9 +120,9 @@ p { color:black;
   font-size: 1.5em;
   color:white;}
 
-body {  background-image: url("statuapizzo2.jpg");
+body {background-image: url("statuapizzo2.jpg");
+z-index: 3;
 background-color:black;
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,6 +130,7 @@ background-color:black;
   font-family:sans-serif;
   }
   background {opacity:1;}
+  .flex {max-width: 100%}
 
 #navbar {background-color: black;
 opacity:0.7;

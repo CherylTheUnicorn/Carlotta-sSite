@@ -1,6 +1,7 @@
 
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
   <title> My Experimental Corner </title>
@@ -8,7 +9,6 @@
   <link rel="stylesheet" href="style.css">
   <script src="index.js"> </script>
 
-  </head>
 
   <div id="navbar">
     <ul>
@@ -16,13 +16,24 @@
   <li> <a href="portfolio.html" id="elements"> Portfolio </a> </li>
   <li> <a href="curriculum.html" id="elements"> Curriculum  </a> </li>
   </ul>
-    <embed src="Every You Every Me.mp3" width="350" height="80" autostart="true" hidden="false"> </embed>
+  <div>  <embed src="Every You Every Me.mp3" width="350" height="80" autostart="true" hidden="false"> </embed>
+</div>
 </div><br><br>
+</head>
 
-<body>
+<body class="flex" onload="myFunction()" style="margin:0;">
   <h1 align="center"> <img src="Tavola disegno 1.svg" /></h1><br><br>
+  <div class="iconbar">
+  <a href="https://www.facebook.com/carlotta.calabria"> <img src="facebook.svg"> <i class="facebook"> </i></a>
+  <a href="https://www.instagram.com/carlotta_calabria/"> <img src="instagram.svg"> <i class="instagram"></i></a>
+  <a href="https://it.pinterest.com/carlottacalabri/"> <img src="pinterest.svg"> <i class="pinterest"></i></a>
+  <a href="mailto:carlotta.calabria@gmail.com"> <img src="envelope.svg"> <i class="e-mail"></i></a>
+  </div>
+
+  <div id="spinner1" class="center"> </div>
+  <div id="spinner2" class="center"> </div>
   <h2 align="left"> <em>Why don't you take a look?</em> </h2> <br><br><br>
-  <p>
+  <div  style="display:none;" id="poesia" class="animate-bottom"><p>
 Sempre caro mi fu quest'ermo colle, <br>
 E questa siepe, che da tanta parte <br>
 Dell'ultimo orizzonte il guardo esclude. <br>
@@ -37,16 +48,15 @@ Vo comparando: e mi sovvien l'eterno, <br>
 E le morte stagioni, e la presente <br>
 E viva, e il suon di lei. Così tra questa <br>
 Immensità s'annega il pensier mio:<br>
-<strong> E il naufragar m'è dolce in questo mare. </strong>
-</p><br><br><br><br><br><br>
-
-
-
-
-
-
-
+<strong> E il naufragar m'è dolce in questo mare. </strong><br><br><br><br><br>
 <footer>
 <h4 onclick="topFunction()" id="bottonetop"> Get to the top! </h4>
-</footer>
+</footer> </p> </div>
+
+
+
+
+
+
+
 </html>
