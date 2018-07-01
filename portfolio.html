@@ -20,14 +20,14 @@
 <body>
   <h1 align="center"> <img src="Tavola disegno 1.svg" /></h1>
   <div class="iconbar">
-  <a href="https://www.facebook.com/carlotta.calabria"> <img src="facebook.svg"> <i class="facebook"> </i></a>
-  <a href="https://www.instagram.com/carlotta_calabria/"> <img src="instagram.svg"> <i class="instagram"></i></a>
-  <a href="https://it.pinterest.com/carlottacalabri/"> <img src="pinterest.svg"> <i class="pinterest"></i></a>
+  <a href="https://www.facebook.com/carlotta.calabria" target="_blank"> <img src="facebook.svg"> <i class="facebook"> </i></a>
+  <a href="https://www.instagram.com/carlotta_calabria/" target="_blank"> <img src="instagram.svg"> <i class="instagram"></i></a>
+  <a href="https://it.pinterest.com/carlottacalabri/" target="_blank"> <img src="pinterest.svg"> <i class="pinterest"></i></a>
   <a href="mailto:carlotta.calabria@gmail.com"> <img src="envelope.svg"> <i class="e-mail"></i></a>
   </div>
 <h2> My Works </h2>
-<p> Here's a gallery showing some of my drawings and pictures!<br><br><br>
-  Hope you like it! </p><br><br><br><br><br><br><br>
+<p> Here's a gallery showing some pictures I took in a pottery studio, feel free to check my Instagram profile out if you want to see some of my drawings as well!<br><br><br>
+  Hope you like it! </p><br><br><br><br><br><br><br><br><br>
   <div class="slideshow-container">
      <div class="mySlides fade">
       <img src="vaso1bn.jpg" style="width:100%;">
@@ -40,17 +40,29 @@
     <div class="mySlides fade">
       <img src="vaso3bn.jpg" style="width:100%">
     </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
+</div>
   <br>
 
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
+
+  <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2500);
+}
+</script>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
 <h4 onclick="topFunction()" id="bottonetop"> Get to the top! </h4>
 </footer>
 </html>
